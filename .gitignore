@@ -1,0 +1,11 @@
+# Node (React frontend)
+dropbox-frontend/node_modules
+dropbox-frontend/build
+
+# Java (Spring Boot backend)
+dropbox-frontend/target
+
+# General
+.DS_Store
+*.log
+.env
