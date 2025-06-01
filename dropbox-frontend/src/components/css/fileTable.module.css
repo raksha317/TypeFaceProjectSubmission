@@ -1,0 +1,49 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f5f7fa; /* Very light gray-blue */
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: white; /* White for odd rows */
+  }
+  
+  .downloadBtn,
+  .viewBtn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .downloadBtn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .viewBtn {
+    background-color: #a3d2f2; /* Soft light blue */
+    color: #2c3e50;
+  }
+  
